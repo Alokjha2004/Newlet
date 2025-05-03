@@ -27,20 +27,20 @@ A responsive and modern News Web Application built using **React**, **Vite**, an
 
 ## 📦 Project Structure
 
+```plaintext
 src/
 ├── assets/
-│ └── logo.png
 ├── components/
-│ ├── Card.jsx
-│ ├── Navbar.jsx
+│   ├── Card.jsx
+│   └── Navbar.jsx
 ├── pages/
-│ ├── Home.jsx
-│ ├── Category.jsx
-│ ├── Search.jsx
+│   ├── Home.jsx
+│   ├── Category.jsx
+│   └── Search.jsx
 ├── App.jsx
 ├── main.jsx
 ├── index.css
-
+```
 ---
 
 
