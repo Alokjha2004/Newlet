@@ -1,12 +1,76 @@
-# React + Vite
+# 📰 React News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern News Web Application built using **React**, **Vite**, and **Tailwind CSS**. This app fetches real-time news articles based on different categories and search terms using the [News API](https://newsapi.org/).
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ Built with Vite + React
+- 🎨 Styled using Tailwind CSS
+- 🔍 Search functionality for news
+- 🗂️ Category-wise filtering (e.g., IPL, Finance, Politics)
+- 📱 Fully responsive UI (Mobile, Tablet, Desktop)
+- 🧭 Intuitive Navbar with mobile menu toggle
+- ⬆️ Auto scrolls to top on category change
+- 🧠 Clean and maintainable code structure
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Technologies Used
+
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [NewsAPI.org](https://newsapi.org/) (for real news data)
+
+---
+
+## 📦 Project Structure
+
+src/
+├── assets/
+│ └── logo.png
+├── components/
+│ ├── Card.jsx
+│ ├── Navbar.jsx
+├── pages/
+│ ├── Home.jsx
+│ ├── Category.jsx
+│ ├── Search.jsx
+├── App.jsx
+├── main.jsx
+├── index.css
+
+---
+
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-username/react-news-app.git
+cd react-news-app
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Set Up .env File
+
+- Create a .env file at the root and add your News API key:
+```bash
+VITE_NEWS_API_KEY=your_api_key_here
+```
+
+### 4. Run the App
+
+```bash
+npm run dev
+```
+Open in your browser: http://localhost:5173
+
+
