@@ -70,6 +70,5 @@ VITE_NEWS_API_KEY=your_api_key_here
 ```bash
 npm run dev
 ```
+
 Open in your browser: http://localhost:5173
-
-
